@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/pipa
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/displayconfig/display_id_4630946808805831297.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946808805831297.xml \
+    vendor/xiaomi/pipa/proprietary/vendor/etc/displayconfig/display_id_4630946922172900481.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946922172900481.xml \
     vendor/xiaomi/pipa/proprietary/vendor/bin/batterysecret:$(TARGET_COPY_OUT_VENDOR)/bin/batterysecret \
     vendor/xiaomi/pipa/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/xiaomi/pipa/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
